@@ -1,6 +1,6 @@
-const producto = "Monitor de 20 pulgadas";
-const producto2= String('Monitor 30 Pulgdas');
-const producto3= new String('Monitor 50 Pulgadas')
+// String o Cadena de Texto
+
+const producto = 'Monitor de 20"';
+
+
 console.log(producto)
-console.log(producto2)
-console.log(producto3)
