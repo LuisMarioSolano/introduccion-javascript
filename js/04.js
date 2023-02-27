@@ -1,6 +1,8 @@
 // String o Cadena de Texto
 
-const producto = 'Monitor de 20"';
+const producto = 'Aprendiendo JavaScript con el curso de Desarrollo Web Completo';
+const producto2 = 'Monitor HD';
 
 
-console.log(producto)
+console.log(producto.length);
+console.log(producto2);
