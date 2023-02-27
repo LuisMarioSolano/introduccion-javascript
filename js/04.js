@@ -9,3 +9,4 @@ console.log(producto2);
 
 //IndexOf
 console.log(tweet.indexOf('JavaScript'))
+console.log(tweet.indexOf('Tablet'))
