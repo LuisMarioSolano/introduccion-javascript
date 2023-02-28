@@ -17,5 +17,5 @@ puntaje++; // 10
 ++puntaje; // 12
 
 
-console.log(Puntaje);
+console.log(puntaje);
 
