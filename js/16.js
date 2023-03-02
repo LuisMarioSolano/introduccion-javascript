@@ -8,10 +8,10 @@ function sumar() {
 }
 
 // Expreción de la función
-sumar2();
 const sumar2 = function() {
     console.log(3 + 3);
 }
+sumar2();
 
 // IIFE (Protege variables de otros archivos)
 (function() {
