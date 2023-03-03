@@ -1,7 +1,7 @@
 // Promises
 
 const usuarioAutenticado = new Promise ((resolve, reject) => {
-    const auth = true;
+    const auth = false;
 
     if(auth) {
         resolve('Usuario Autenticado'); // El promise se cumple
@@ -10,7 +10,10 @@ const usuarioAutenticado = new Promise ((resolve, reject) => {
     }
 });
 
-console.log(usuarioAutenticado);
+usuarioAutenticado
+    .then(resultado => console.log(resultado))
+    .catch(error => console.log(error));
+
 
 // En los promises existen 3 valores
 // Pending : No se ha cumplido pero tampoco se ha rechazado
